@@ -1,0 +1,15 @@
+{
+	"name": "Pwntus/YAAAC",
+	"description": "Yet Another Automatic Account Creator for TFS 1.X",
+	"license": "MIT",
+    "require": {
+        "slim/slim": "^3.0",
+		"illuminate/database": "^5.3",
+		"firebase/php-jwt": "^4.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"SlimAAC\\": "SlimAAC"
+    	}
+    }
+}
